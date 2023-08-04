@@ -1,0 +1,14 @@
+Google play console
+1. Tạo dự án mới 
+2. Tạo internal testing -> app signing (MD5, SHA-1, SHA-256)
+
+-> keystore
+-> MD5, SHA-1, SHA-256
+
+Firebase
+1. Chọn dự án đã được tạo, thêm android SHA-1 (com.shg.--) SG-- AR
+
+-> google-services.json
+
+Android
+Tạo keystore: jdk 
