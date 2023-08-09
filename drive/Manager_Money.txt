@@ -1,0 +1,25 @@
+
+check login (shareR) 
+database name = Manager Money
+data class AccountUser(
+    val idAccount: Int = 0,  
+    var emailName: String? = null,
+)
+
+data class MoneyAccount(
+    var idMoneyAccount: Int = 0,
+    var moneyAccountName: String? = null,
+    var idAccountUser: Int? = null,
+    var idCountry: Int? = null,
+) 
+
+data class Country(
+    val idCountry: Int = 0,
+    var countryName: String? = null,
+    var idAccountUser: Int? = null,
+)
+
+Nút = bảng
+.addListenerForSingleValueEvent: Đây là phương thức để lắng nghe sự kiện chỉ một lần 
+.ddValueEventListener : Lắng nghe liên tục như a).
+ Khi truy vấn được thực hiện và dữ liệu trả về, hàm onDataChange sẽ được gọi để xử lý dữ liệu.

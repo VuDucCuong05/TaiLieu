@@ -1,3 +1,6 @@
+com.shg.sg
+
+Step 3
 Google play console
 1. Tạo dự án mới 
 2. Tạo internal testing -> app signing (MD5, SHA-1, SHA-256)
@@ -12,3 +15,8 @@ Firebase
 
 Android
 Tạo keystore: jdk 
+
+Liên kết Appsflyer ( ở trạng thát unpublish)
+
+(đính kèm các thông tin trên tool v2
+

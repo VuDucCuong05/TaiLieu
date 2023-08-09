@@ -1,0 +1,10 @@
+
+Step2 : 
+1. download file -> internaltest -> check: 
+- target Sdk  (nâng lên 33) và thêm quyền "android.permission.POST_NOTIFICATIONS" vào manifes (do sử dụng < 33 thì chắc chắn thiếu quyền)
+- check xem đủ quyền hay chưa (google play console)
+- sử dụng Sdk mới 3.2.8.9
+- check trên tool version SDK (android)
+2. conver .zip -> giải nén -> check file client.txt có config với sdk không
+- gắn link bản internaltest 
+-> done Step2
