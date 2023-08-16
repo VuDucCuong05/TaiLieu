@@ -1,0 +1,5 @@
+Trong Android, MongoDB là một hệ quản trị cơ sở dữ liệu (DBMS) thuộc loại NoSQL, 
+được sử dụng để lưu trữ và quản lý dữ liệu. 
+MongoDB là một hệ quản trị cơ sở dữ liệu phân tán, 
+linh hoạt và có khả năng mở rộng, được thiết kế để làm việc với 
+dữ liệu có cấu trúc thấp hoặc không có cấu trúc (NoSQL).

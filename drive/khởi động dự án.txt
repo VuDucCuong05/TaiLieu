@@ -2,11 +2,11 @@ com.shg.sg
 
 Step 3
 Google play console
-1. Tạo dự án mới 
-2. Tạo internal testing -> app signing (MD5, SHA-1, SHA-256)
-
+1. Tạo dự án mới :com.shg.sg***
+2. Tạo internal testing 
+-> app signing (MD5, SHA-1, SHA-256)
 -> keystore
--> MD5, SHA-1, SHA-256
+
 
 Firebase
 1. Chọn dự án đã được tạo, thêm android SHA-1 (com.shg.--) SG-- AR
@@ -15,6 +15,9 @@ Firebase
 
 Android
 Tạo keystore: jdk 
+shg***.jdk
+alids: key0
+password: 123456
 
 Liên kết Appsflyer ( ở trạng thát unpublish)
 

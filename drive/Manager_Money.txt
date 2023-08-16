@@ -1,23 +1,102 @@
 
-check login (shareR) 
-database name = Manager Money
-data class AccountUser(
-    val idAccount: Int = 0,  
-    var emailName: String? = null,
+data class UserAccount(
+    var idUserAccount: String? = null ,
+    var email: String? = null,
 )
-
-data class MoneyAccount(
-    var idMoneyAccount: Int = 0,
-    var moneyAccountName: String? = null,
-    var idAccountUser: Int? = null,
-    var idCountry: Int? = null,
-) 
 
 data class Country(
     val idCountry: Int = 0,
     var countryName: String? = null,
-    var idAccountUser: Int? = null,
+    var exchangeRate: Float? = null,
 )
+
+data class Category(
+    var idCategory: String = "",
+    var categoryName: String? = null,
+    var idUserAccount: String? = null,
+    var icon: Icon(),
+)
+
+// khi thay đổi country thì cũng thay đổi moneyAccount)
+data class MoneyAccount(
+    var idMoneyAccount: String = "",
+    var moneyAccountName: String? = null,
+    var idUserAccount: String? = null,
+    var icon :Icon(),
+    var country : Country()	
+)
+
+data class Transaction(
+    var idTransaction: String = "",
+    var transactionName: String? = null,
+    var idUserAccount: String? = null,
+    var moneyAccount : MoneyAccount(),  
+    var category : Category(),
+) 
+
+
+
+
+
+
+
+
+
+
+
+
+data class UserAccount(
+    var idUserAccount: String? = null ,
+    var email: String? = null,
+)
+
+data class Country(
+    val idCountry: Int = 0,
+    var countryName: String? = null,
+    var currencyCode: String? = null,
+    var currencyName: String? = null,
+    var currencySymbol: String? = null,
+    var flagUrl: String? = null,
+    var exchangeRate: Float? = null,
+    var selectCountry: Boolean? = null,
+)
+
+data class Category(
+    var idCategory: String = "",
+    var categoryName: String? = null,
+    var type: Int? = null, // 1 ex , 2 in
+    var moneyLimit: Float? = null,
+    var selectCategory: Boolean? = null,
+    var icon: Icon(),
+    var idUserAccount: String? = null,
+)
+
+
+data class MoneyAccount(
+    var idMoneyAccount: String = "",
+    var moneyAccountName: String? = null,
+    var amountMoneyAccount: Float? = null,
+    var selectMoneyAccount: Boolean? = null,
+    var idUserAccount: String? = null,
+    var icon :Icon(),
+    var country : Country()	
+)
+
+data class Transaction(
+    var idTransaction: String = "",
+    var transactionName: String? = null,
+    var transactionAmount: Float? = null,
+    var day: Long? = null,
+    var comment: String? = null,
+    var selectTransaction: Boolean? = null,
+    var idUserAccount: String? = null,
+    var moneyAccount : MoneyAccount(),  
+    var category : Category(),
+   
+) 
+
+
+  
 
 Nút = bảng
 .addListenerForSingleValueEvent: Đây là phương thức để lắng nghe sự kiện chỉ một lần 

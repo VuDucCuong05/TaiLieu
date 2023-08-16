@@ -1,10 +1,24 @@
 
+Tạo gửi file keysore để dev build file aab
+shgXXX.jdk
+alias: key0
+password: 123456
+
 Step2 : 
-1. download file -> internaltest -> check: 
+
+1. download file aab -> internaltest -> check: 
 - target Sdk  (nâng lên 33) và thêm quyền "android.permission.POST_NOTIFICATIONS" vào manifes (do sử dụng < 33 thì chắc chắn thiếu quyền)
 - check xem đủ quyền hay chưa (google play console)
 - sử dụng Sdk mới 3.2.8.9
 - check trên tool version SDK (android)
 2. conver .zip -> giải nén -> check file client.txt có config với sdk không
+Tạo bản internal test
+-> gửi cho dev các lỗi mà google report về (bản internaltest)
+
+Thêm tài khoản test
 - gắn link bản internaltest 
--> done Step2
+-> done Step2 -> finish step
+
+
+Step8: 
+
