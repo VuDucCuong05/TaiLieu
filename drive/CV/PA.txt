@@ -1,0 +1,23 @@
+Tôi là một kỹ sư lập trình, tôi có kinh nghiệm và kiến thức làm việc
+trong lĩnh vực IT với công việc chuyên môn: 
+- Phát triển ứng dụng Android với ngôn ngữ Java, Kotlin
+kết hợp với các công cụ như: Google Play Console, FireBase, Appsflyer, Google Admob, Android Studio ... 
+Để xây dựng, phát triển, kiểm thử và bảo trình các ứng dụng trong nhiều lĩnh vực như: quản lý, tiện ích, thương mại, giải trí
+(ứng dụng SohaGame CSKH, đồng hồ GPS, Radio FM, Manager Money, ...) 
+- Lập trình website :Front-end:React, Back-end: Node.js
+- Quản lý cơ sở dữ liệu với:  MySQL, MongoDB (NoSQL), SQL Server
+Để tạo ra những website như: bán hàng, quản lý nhân sự, ...
+Sử dụng thành thạo các phần mềm: Visual Studio Code (VS Code), Android Studio,Eclipse, Postman, GitHub,
+Trello, Figma, phpMyAdmin để hoàn thành công việc.
+Tôi là người có trách nghiệm và tình thân học hỏi cao, sẵn sàng học tập những kiếm thức mới,
+kiến thức chuyên sâu để áp dụng vào công việc một cách tốt nhất, giúp cải thiện và 
+nâng cao hiệu suất công việc.
+
+
+
+(Giống Trello,...)
+Microsoft Project là một trong ứng dụng quản lý dự
+án được phát triển bởi Microsoft. 
+Đây là phần mềm được phát triển để hỗ trợ 
+việc quản lý dự án, phát triển kế hoạch, 
+phân công nguồn lực cho dự án.
